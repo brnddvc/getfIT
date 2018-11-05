@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">getfIT</string>
+    <string name="exercises">Vježbe</string>
+    <string name="settings">Postavke</string>
+    <string name="calendar">Kalendar</string>
+    <string name="view_exercise">Prikaži vježbu</string>
+    <string name="name_exercise">Ime vježbe</string>
+    <string name="timer">60</string>
+    <string name="start_exercise">Započni vježbu</string>
+    <string name="easyButton">Lagano</string>
+    <string name="mediumButton">Srednje</string>
+    <string name="hardButton">Teško</string>
+    <string name="markDone">Označi kao gotovo</string>
+    <string name="toast">Gotovo :D</string>
+    <string name="running">Trčanje</string>
+    <string name="skipping_rope">Preskakanje vijače</string>
+    <string name="cardio_step">Step aerobik</string>
+    <string name="squat">Čučanj</string>
+    <string name="squat_with_kettlebell">Čučanj sa zvonom</string>
+    <string name="squat_with_weights">Čučanj sa težinom</string>
+    <string name="weightlifting">Dizanje težina</string>
+    <string name="forward_lunge">Prednji iskorak</string>
+    <string name="forward_lunge_with_dumbbell">Prednji iskorak sa tegom</string>
+    <string name="forward_lunge_with_dumbbell_press">Prednji iskorak sa potiskom</string>
+    <string name="pushing_tire">Guranje gume</string>
+    <string name="push_up">Sklek</string>
+    <string name="sit_up">Trbušnjak</string>
+    <string name="crunches">Trbušnjak lakat-koljeno</string>
+    <string name="plank">Daska</string>
+    <string name="side_plank">Bočna daska</string>
+    <string name="donkey_kick">Magareći udarac</string>
+    <string name="mountain_climbers">Alpinisti</string>
+    <string name="bird_dog_on_gym_ball">Ptica pas na lopti</string>
+    <string name="chest_press_on_gym_ball">Potisak na lopti</string>
+    <string name="done">Gotovo: </string>
+</resources>

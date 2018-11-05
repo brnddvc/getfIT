@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExercisesActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/name_exercise"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/detailImage"
+        android:src="@drawable/cetrnaesta"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/startExerciseButton"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="23dp"
+        android:layout_weight="1"
+        android:text="@string/start_exercise"
+        android:textColor="@android:color/white"
+        app:fButtonColor="@color/colorPrimary"
+        app:shadowColor="@color/colorPrimaryDark"
+        app:shadowEnabled="true"
+        app:shadowHeight="2dp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/startExerciseButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:text="@string/timer"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

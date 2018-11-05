@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fitness"
+    tools:context=".SettingsActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="4dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:checkedButton="@+id/easyButton"
+            android:orientation="vertical"
+            tools:background="@android:color/transparent">
+
+            <RadioButton
+                android:id="@+id/easyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="false"
+                android:focusable="auto"
+                android:text="@string/easyButton"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:theme="@style/MyRadioButton" />
+
+            <RadioButton
+                android:id="@+id/mediumButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/mediumButton"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:theme="@style/MyRadioButton" />
+
+            <RadioButton
+                android:id="@+id/hardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hardButton"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:theme="@style/MyRadioButton" />
+
+        </RadioGroup>
+
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/soundOnButton"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/cardview"
+        android:layout_centerHorizontal="true"
+        android:onClick="play"
+        android:scaleType="fitCenter"
+        android:src="@drawable/soundon" />
+
+</RelativeLayout>

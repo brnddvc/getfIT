@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">getfIT</string>
+    <string name="exercises">Exercises</string>
+    <string name="settings">Settings</string>
+    <string name="calendar">Calendar</string>
+    <string name="view_exercise">View Exercise</string>
+    <string name="name_exercise">Name Of Exercise</string>
+    <string name="timer">60</string>
+    <string name="start_exercise">Start Exercise</string>
+    <string name="easyButton">Easy</string>
+    <string name="mediumButton">Medium</string>
+    <string name="hardButton">Hard</string>
+    <string name="markDone">Mark As Done</string>
+    <string name="toast">Finish :D</string>
+    <string name="running">Running</string>
+    <string name="skipping_rope">Skipping rope</string>
+    <string name="cardio_step">Cardio step</string>
+    <string name="squat">Squat</string>
+    <string name="squat_with_kettlebell">Squat with kettlebell</string>
+    <string name="squat_with_weights">Squat with weights</string>
+    <string name="weightlifting">Weightlifting</string>
+    <string name="forward_lunge">Forward lunge</string>
+    <string name="forward_lunge_with_dumbbell">Forward lunge with dumbbell</string>
+    <string name="forward_lunge_with_dumbbell_press">Forward lunge with dumbbell press</string>
+    <string name="pushing_tire">Pushing tire</string>
+    <string name="push_up">Push up</string>
+    <string name="sit_up">Sit up</string>
+    <string name="crunches">Crunches</string>
+    <string name="plank">Plank</string>
+    <string name="side_plank">Side plank</string>
+    <string name="donkey_kick">Donkey kick</string>
+    <string name="mountain_climbers">Mountain climbers</string>
+    <string name="bird_dog_on_gym_ball">Bird dog on gym ball</string>
+    <string name="chest_press_on_gym_ball">Chest press on gym ball</string>
+    <string name="done">Done: </string>
+</resources>
